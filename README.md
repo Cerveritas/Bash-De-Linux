@@ -15,7 +15,7 @@ para realizar este script, la verdad que es una gran ayuda para realizar creacio
 cuando hay una gran cantidad de terminales.
 
 *****************************************************************************************************************************
-PETARPC
+PETARPC                                                                                                                                                                   
 Este script compuesto por un bucle que abre terminales generando procesos es una gran broma para hacer a tus amigos, o no 🤣.
 Es muy sencillo, lo que hace es que al ejecutarlo te empieza a abrir infinitas terminales y en cada una genera un proceso,
 de esta manera llegando al 100% de CPU y de memoria util.
