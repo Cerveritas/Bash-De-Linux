@@ -14,7 +14,7 @@ Para comenzar este script poner solo [ ./nombrescript.sh -man ] y de esta manera
 para realizar este script, la verdad que es una gran ayuda para realizar creacion de usuarios y meterlos en grupos
 cuando hay una gran cantidad de terminales.
 
-*****************************************************************************************************************************                                              
+*****************************************************************************************************************************                                             
 PETARPC;                                                                                                                                                                 
 Este script compuesto por un bucle que abre terminales generando procesos es una gran broma para hacer a tus amigos, o no 🤣.
 Es muy sencillo, lo que hace es que al ejecutarlo te empieza a abrir infinitas terminales y en cada una genera un proceso,
