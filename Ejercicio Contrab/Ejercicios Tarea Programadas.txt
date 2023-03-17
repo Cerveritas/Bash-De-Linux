@@ -1,0 +1,15 @@
+1- instalamos crontab -e
+
+2- lo abrimos con crontab -e
+
+3- dentro ponemos la ubicacion del script y cuando quieres que se ejecute, en mi caso:
+	*/1 * * * * /home/sergio/Escritorio/prueba.sh
+
+4 - Creamos el script y dentro del mismo ponemos lo que queremos hacer, en mi caso:
+	
+	0 8 * * 0 echo Ejecutada > /tmp/mondays.txt
+	0 12 1 * * echo Ejecutada > /tmp/monthly.txt
+	0 16 1 1 * echo Ejecutada > /tmp/yearly.txt
+	*/5 * * * * echo Ejecutada > /tmp/fiveminutes.txt
+	15 */1 * * * echo Ejecutada > /tmp/15minute.txt
+	30 19 * * 0-7 echo Ejecutada > /tmp/wekkdays.txt
